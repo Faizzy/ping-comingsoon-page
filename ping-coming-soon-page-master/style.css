@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+ .content {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+.main-heading{
+    text-align: center;
+    font-weight: 700;
+    margin: 70px 50px 50px 50px;
+    font-size: 45px;
+    color: hsl(209, 33%, 12%);
+}
+
+span {
+    color: hsl(223, 87%, 63%);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 60px;
+    color: hsl(0, 0%, 59%);
+}
+
+
+.soon {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+
+.sub-head {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+    margin-top: 20px;
+}
+
+/* Form styles */
+
+.form {
+    margin-top: 40px;
+}
+
+#emailInput {
+    width: 600px;
+    height: 70px;
+    border-radius: 35px;
+    border: solid 1px hsl(223, 100%, 88%);
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: hsl(223, 100%, 88%);
+    padding: 40px;
+}
+
+#emailInput {
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+    button:hover {
+        background-color: hsl(223, 100%, 88%);
+    }
+
+#errortext {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font: italic;
+    display: inline-block;
+}
+/* ======================= */
+img {
+    width: 850px;
+    margin-top: 90px;
+}
+
+.icons {
+    font-size: 20px;
+    color: hsl(223, 87%, 63%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+    .icon {
+        width: 35px;
+        height: 35px;
+        margin: 20px;
+        border: 2px solid hsl(223, 100%, 88%);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+footer {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Mobile responsive */ 
+@media screen and (max-width: 375px) {
+    .content {
+        display: block;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .sub-head {
+        font-size: 15px;
+    }
+
+    .main-heading {
+        font-size: 25px;
+    }
+
+    .form  {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #emailInput{
+        width: 300px;
+        height: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    input::placeholder {
+        font-size: 15px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    button {
+        width: 300px;
+        height: 40px;
+        margin: 10px auto auto auto;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    img {
+        display: flex;
+        width: 300px;
+        margin: 50px auto auto auto;
+    }
+
+    footer {
+        font-size: 12px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .icons {
+        margin-top: 70px;
+        font-size: 16px;
+        margin: 50px auto 20px auto;
+    }
+
+    .icon {
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+

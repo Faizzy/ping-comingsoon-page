@@ -199,4 +199,74 @@ footer {
     }
 }
 
+@media screen and (max-width: 970px) {
+    .content {
+        display: block;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .sub-head {
+        font-size: 15px;
+    }
+
+    .main-heading {
+        font-size: 25px;
+    }
+
+    .form  {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #emailInput{
+        width: 300px;
+        height: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    input::placeholder {
+        font-size: 15px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    button {
+        width: 300px;
+        height: 40px;
+        margin: 10px auto auto auto;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    img {
+        display: flex;
+        width: 300px;
+        margin: 50px auto auto auto;
+    }
+
+    footer {
+        font-size: 12px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .icons {
+        margin-top: 70px;
+        font-size: 16px;
+        margin: 50px auto 20px auto;
+    }
+
+    .icon {
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}
 
